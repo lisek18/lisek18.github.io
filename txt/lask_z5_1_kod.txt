@@ -1,0 +1,24 @@
+<html>
+<head>
+    <!-- 12.02.2021 Oliwia Laskowska !-->
+<title>styl importowany</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<style>
+ @import url("css/lask_z5_1.css");
+ </style>
+</head>
+<body>
+    <p> Oliwia Laskowska</p> 
+    <p>Język JavaScript pojawił się już 24 lata temu dokładnie 4 grudnia 1995</p>
+	
+</body>
+</html>
+
+
+<!--              CSS                 -->
+
+p {
+color: #FF00FF;
+font-size: 64px;
+ }

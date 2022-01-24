@@ -1,0 +1,45 @@
+<HTML>
+ <HEAD>
+ <TITLE>Style wewnętrzne</TITLE>
+ <META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=utf-8">
+ <style type="text/css">
+ <!--
+ /* To jest arkusz stylów kompatybilny wstecz */
+ -->
+ body{
+ background-color: rgb(300,25,150);
+ text-align : center;
+ margin : 50px;
+}
+DIV {
+ background : rgb(100,128,255);
+ width : 400px;
+ border : 3px black solid;
+ }
+H1 {
+ margin : 20px;
+ border : 1px solid black;
+ background : rgb(255,255,0);
+ }
+ H2 {
+ margin : 20px;
+ border : 4px dotted black;
+ background : rgb(26,175,79);
+ }
+ H3 {
+ margin : 20px;
+ border : 6px groove black;
+ background : rgb(255,150,15);
+ }
+
+ </style>
+ </HEAD>
+<BODY>
+<DIV><H1>To jest przyklad</H1></DIV>
+<hr>
+<DIV><H2>H2 mniej ważny nagłówek</H2></DIV>
+<hr>
+<DIV><H3>H3 jeszcze mniej ważny nagłówek</H3></DIV>
+<hr>
+</BODY>
+</HTML>

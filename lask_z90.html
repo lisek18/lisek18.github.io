@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <style type="text/css"> /* początek def CSS */
+ * { margin: 0px; padding: 0px;} /* zerowanie styli */
+ div {overflow: hidden; padding: 25px; }
+/* overflow: hidden --> ukrywanie tekstu wychodzącego poza granice elementu */
+/* padding: 25px; --> Margines wewnętrzny określa odstęp pomiędzy początkiem elementu, a jego treścią.*/
+ #ramka { /* definicja elementu ID o nazwie ramka*/
+ margin-right: auto; /* auto -->przeglądarka internetowa sama określi rozmiar prawego zewnętrznego marginesu interesującego nas elementu HTML */
+ margin-left: auto;
+ min-width: 400px; /* minimalna szer strony-->możemy określić minimalny rozmiar szerokości obszaru zawartości interesującego nas elementu HTML. */
+ max_width: 900px; /* maksymalna szer strony-->możemy określić maksymalny rozmiar szerokości obszaru zawartości interesującego nas elementu HTML. */
+ }
+ #naglowek {
+ background-color: #009000; 
+/* kolor tła w HEX na #009000; */
+ font-size:16pt; 
+/* wielkość czcionki na 16 na jaka tu jest jednostka-wpisz */
+ color:red; 
+/* kolor czcionki czerwony */
+ font-family: Arial; 
+/* czcionka  arial */
+ font-style: italic;
+/* styl fonta */
+ text-align: center; 
+/* wyśrodkowanie tekstu */
+ font-weight:bold;
+/* Wartość bolder właściwości font-weight oznacza, że (jeżeli jest to możliwe) czcionka tekstu interesującego nas elementu HTML powinna posiadać grubość większą od grubości dziedziczonej od elementu rodzica. */
+ }
+ #stopka {
+ background-color: #006600;
+ font-size:16pt; 
+ color:blue; 
+ font-family: Arial; 
+ font-style: italic;
+ clear:both; 
+/* clear-przyleganie elementów, both-Element jest przesuwany poniżej elementów pływających po obu stronach */
+ }
+.kolumny {/* definicja klasy kolumny (jest kropka i co to znaczy)*/
+ margin-top: 10px; /* grubość górnego marginesu */
+ margin-rigth: 2%; /* grubość prawego marginesu */
+ margin-bottom: 2%; /* Za pomocą właściwości margin-bottom możemy określić rozmiar dolnego zewnętrznego marginesu interesującego nas elementu HTML. */
+ margin-left: 10px; /* grubość lewego marginesu */
+ 
+ }
+ #kol1 {
+ float: left; /* element powinien być wyjęty z normalnego przepływu i umieszczony przy lewej */
+ width:100px;
+ background-color: #00a000;
+ }
+ 
+ #kol2 {
+ background-color: #00FF00;
+ font-size: 0.7cm;
+ color:green;
+ }
+ #menu_prawe_laskowska {
+ float: right;
+ width:100px;
+ background-color: #009000 ;
+ font-size: 0.5cm;
+ color:red;
+ 
+ }
+</style>
+ </head>
+<body>
+ <div id="ramka">
+ <div id="naglowek">Nagłówek mojej strony </div>
+ <div class="kolumny" id="kol1"><p>Menu</p> </div>
+ <div class="kolumny" id="kol2"><p>
+ <table>
+ <tr>
+ <td>Treść:<br>
+ Szablon pływający (płynny szablon) Przy zmianie szerokości okna przeglądarki zmieniać się będzie szerokość kolumn. Najczęściej zmiana szerokości dotyczy tylko
+ wybranych kolumn np. kolumna menu pozostaje niezmieniona, pozostałe kolumny zmieniaja się płynnie w stosunku do  szerokości okna.</td></tr>
+<tr><td><img src="jpg\Laskowska_100procent_skalowana.jpg"></td><td><img src="jpg\Laskowska_50procent_skalowana.jpg"></td></tr>
+
+</table>
+</p></div>
+<div class="kolumny" id="menu_prawe_laskowska"><p>Laskowska</p></div>
+ <div id="stopka">Pracę wykonał nieznany woluntariusz</div>
+ </div>
+ <a href="index.html" target="strony">Powrót</a><br>
+</body>
+</html>
+<!-- Oliwia Laskowska -->

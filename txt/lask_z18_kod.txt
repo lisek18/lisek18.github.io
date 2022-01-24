@@ -1,0 +1,46 @@
+<html>
+    <head>
+    <title>Laskowska</title>  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+    </head>
+    <body>
+	<div style="background-color:#FF0000; width: 1096px;">
+ <span style="color:#FF00FF; font-size: 1.4cm;">
+ <b>Znacznik SPAN (blok 2) --> 13:24, 09.04.2021</b><br>
+ </span>
+	<ul type="disk"> <span style="color:#808000; font-size: 8mm;">
+		<li> <b><u>Elementy wyświetlane w linii (SPAN)</u></b> jest elementem liniowym nie mogą zawierać elementów blokowych, ale <br> mogą inne elementy wyświetlane w linii oraz zwykły tekst 
+		<li> Jeśli chcemy w paragrafie cześć tekstu wyróżnić czerwonym kolorem do wyodrębnienia tego tekstu nie możemy uzyć elementu div (paragraf z zasady nie może zawierać elementów blokowych) tylko span. Wewnątrz DIV można <br> oczywiście wpisać również SPAN.
+	</span></ul>
+        </div>
+		
+    <div style="background-color:#808080; width: 1198px;">
+        <span style="color: #00FF00; font-size:1.6cm">
+        Znacznik DIV (blok 1)-->Laskowska<br>
+            </span>
+        <span ><b><u>Element blokowy (DIV)</u></b> jest elementem blokowym może zawierać wewnątrz siebie zwykły tekst, jak również inne elementy blokowe. Został on pomyślany do tworzenia obszerniejszych struktur:<br>
+        zastosowanie DIV
+        </span>
+        
+        <ul type="circle">
+        <span style="color: #800080; font-size:12mm">
+		<li> Z div'a powinno się korzystać kiedy potrzebujemy wyodrębnić poszczególne bloku w układzie dokumentu, na przykład lewa kolumna, menu nawigacyjn, stopka. 
+		<li> Służy do utworzenia sekcji (bloku) w pliku HTML w celu ich sformatowania za pomocą arkusza stylów CSS.
+	</span></ul>
+        </div>
+        
+   
+            
+        <div style="background-color:#808080; width: 996px;">
+        <span style="color:#FF00FF; font-size: 1.1cm;">
+ <b>Różnica między znacznikami DIV i SPAN (blok 3) --> 2F</b><br>
+ </span>
+            <ul type="square"> <span style="color:#000080; font-size: 6mm;">
+		<li> <b><u>Span'em wyodrębniamy elementy liniowe</u></b> (najczęściej fragmenty tekstu)<b><u> a divem blokowe</u></b> (blokowe elementy, większe fragmenty struktury składające się na układ strony) 
+		<li> Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w linii.
+	</span></ul>
+            
+        
+        </div>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+#naglowek{
+	color: #ff0000;
+	font-size: 1cm;
+    text-align: right;
+}
+#a1{
+    text-align: right;
+    font-family: serif;
+    color: #76EE00;
+    text-decoration: overline;
+    font-style: italic;
+    text-indent: 3cm;
+    line-height: 1.2cm;
+	word-spacing: 9px;
+	letter-spacing: 3ex;
+}
+#z1{
+    font-weight: 400;
+    color: #9CBA7F;
+    font-size: xx-small;
+    text-transform: uppercase;
+ 
+}
+#z2{
+    font-weight: 600;
+    color: #32CD32;
+    font-size: medium;
+    font-variant: small-caps;
+}
+#z3{
+   font-weight: 800;
+    color: #00FFAA;
+    font-size: xx-large; 
+}
+#a2{
+    text-align: center;
+	font-family: sans-serif;
+    color: #068481;
+	text-decoration: line-through;
+	font-style: oblique;
+	text-indent: 15mm;
+	line-height: 18mm;
+	word-spacing: 13pt;
+	letter-spacing: 0,3cm;
+}
+#z4{
+    font-weight: 300;
+    color: #01C5BB;
+    font-size: 24px;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    
+}
+#z5{
+    font-weight: 600;
+    color: #03A89E;
+    font-size: 1in;
+    
+    
+}
+#z6{
+    font-weight: 800;
+    color: #00611C;
+    font-size: 5em;
+}

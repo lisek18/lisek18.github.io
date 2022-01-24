@@ -1,0 +1,51 @@
+
+<HTML>
+ <HEAD>
+ <TITLE>Style wewnetrzne</TITLE>
+ <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <style type="text/css">
+
+ H1 {
+ width: 300pt;
+ height:2,6cm;
+ padding : 30px;
+ border: groove;
+ border-top-color:gray;
+ border-bottom-color:maroon;
+ border-left-color:yellow;
+ border-right-color:purple;
+ background :rgb(255,160,122);
+  margin-bottom: 60px;
+  margin-right: 100px;
+  margin-left: 605px;
+
+ 
+ }
+ H2 {
+ width: 400pt;
+ height:3,1cm;
+ padding : 30px;
+ margin-bottom: 350px;
+  margin-left: 10px;
+ border :  solid black;
+ background :rgb(255,69,0);
+ }
+ H3 {
+ width: 200pt;
+ height:2,2cm;
+ padding : 20px;
+ margin-bottom: 10px;
+  margin-left: 1200px;
+ border :  ridge gray;
+ background :rgb(255,165,0);
+ <!--  Oliwia Laskowska !-->
+ }
+ </style>
+ </HEAD>
+<BODY>
+ <!--  Oliwia Laskowska !-->
+<H1>Laskowska</H1>
+<H2>Oliwia</H2>
+<H3>nr4, 2F2 </H3>
+</BODY>
+</HTML>

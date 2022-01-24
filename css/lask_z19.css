@@ -1,0 +1,32 @@
+p{
+    color: red;
+    font-size: 40mm;
+}
+span{
+    color: green;
+    font-size: 25mm;
+}
+div{
+    background-color: silver;
+}
+#test{
+    color: rgb(218,112,214);
+    font-size: 15; 
+}
+#testt{
+    color: rgb(255,192,203);
+    font-size: 15;
+}
+#testtt{
+    color: rgb(135,206,250);
+    font-size: 15;
+}
+wyli{
+   color: rgb(218,112,214);
+}
+wylii{
+    color: rgb(255,192,203);
+}
+wyliii{
+    color: rgb(135,206,250);
+}

@@ -1,0 +1,38 @@
+<!--              HTML                -->
+<html>
+<head>
+    <META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=utf-8"> </META>
+
+<link href="css/lask_z15.css" rel="stylesheet" type="text/CSS">
+    </head>
+<body>
+		<p>:D Szeroki Usmiech</p>
+		 :`( Placz 
+		<p>:| Brak emocji</p>
+		:( Smutek
+		<p>:P Wytkniety język</p>
+		:0 zdziwienie
+</body>
+</html>
+    
+
+
+
+
+
+
+
+<!--              CSS                 -->
+body {
+color: rgb(61%,34%,78%);  
+font-size: 49px;
+ }
+ 
+ p {
+color:#669E5F; 
+font-size: 39px;
+ }
+ 
+ 
+ 
+ 

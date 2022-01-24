@@ -1,0 +1,48 @@
+<html>
+    <head>
+    <title>Laskowska</title>  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+        <link href="css/lask_z19.css" rel="stylesheet" type="text/CSS">
+    </head>
+    <body>
+    <div>      <span>           <b>To jest pogrubienie w ramach DIV oraz SPAN i dlatego jest czerwone na żółtym tle</b>,       a to jest zwykły tekst - również wewnątrz DIV i SPAN.       </span>  To jest zwykły tekst, ale tylko wewnątrz DIV - dlatego nie jest czerwony, ale ma żółte tło.       <p>A to jest akapit (element blokowy) w ramach DIV.</p> 
+        <span>         <b>To jest pogrubienie (element wyświetlany w linii) w ramach SPAN</b>,                           a to jest zwykły tekst - również wewnątrz span. </span>
+        <ol>  <li id="wyli"><span id="test">Punkt pierwszy</span></li> 
+ <li id="wylii"><span id="testt">Punkt drugi</span></li>  <li id="wyliii"><span id="testtt">Punkt trzeci</span></li> </ol> 
+ </div>
+    </body>
+</html>
+
+<------CSS------->
+p{
+    color: red;
+    font-size: 40mm;
+}
+span{
+    color: green;
+    font-size: 25mm;
+}
+div{
+    background-color: silver;
+}
+#test{
+    color: rgb(218,112,214);
+    font-size: 15; 
+}
+#testt{
+    color: rgb(255,192,203);
+    font-size: 15;
+}
+#testtt{
+    color: rgb(135,206,250);
+    font-size: 15;
+}
+wyli{
+   color: rgb(218,112,214);
+}
+wylii{
+    color: rgb(255,192,203);
+}
+wyliii{
+    color: rgb(135,206,250);
+}
